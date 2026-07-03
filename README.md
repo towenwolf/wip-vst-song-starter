@@ -5,12 +5,10 @@ Kick-start a session. One click gives you a random **genre**, **key**, and **BPM
 ## Install (macOS)
 
 ```bash
-git clone https://github.com/trwolf/wip-vst-song-starter && cd wip-vst-song-starter && ./install.sh
+curl -fsSL https://github.com/towenwolf/wip-vst-song-starter/releases/latest/download/install.sh | bash
 ```
 
-That's it. The script handles Homebrew, cmake, JUCE, the build, and copying to your VST3 folder.
-
-First run downloads JUCE (~500 MB) — subsequent builds are fast.
+That's it. Downloads the pre-built bundle (~2 MB) and installs it. No Xcode, no Homebrew, no build step.
 
 After install: **Ableton → Preferences → Plug-Ins → Rescan**, then drop `Song Starter` on any track.
 

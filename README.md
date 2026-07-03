@@ -5,7 +5,7 @@ Kick-start a session. One click gives you a random **genre**, **key**, and **BPM
 ## Install (macOS)
 
 ```bash
-curl -fsSL https://github.com/towenwolf/wip-vst-song-starter/releases/latest/download/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/towenwolf/wip-vst-song-starter/main/install.sh | bash
 ```
 
 That's it. Downloads the pre-built bundle (~2 MB) and installs it. No Xcode, no Homebrew, no build step.

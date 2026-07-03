@@ -15,7 +15,7 @@ echo ""
 
 VST3_DIR="$HOME/Library/Audio/Plug-Ins/VST3"
 TMP=$(mktemp -d)
-RELEASE_URL="https://github.com/towenwolf/wip-vst-song-starter/releases/latest/download/Song%20Starter.vst3.zip"
+RELEASE_URL="https://github.com/towenwolf/wip-vst-song-starter/releases/latest/download/Song.Starter.vst3.zip"
 
 log "Downloading..."
 curl -fsSL "$RELEASE_URL" -o "$TMP/plugin.zip"
